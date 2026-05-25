@@ -4,14 +4,17 @@
 		"read": {
 			"file": {
 				"/etc/samba/smb.conf.template": [ "read" ],
-				"/usr/sbin/smbd": [ "exec" ]
+				"/usr/sbin/smbd": [ "exec" ],
+				"/usr/sbin/ksmbd": [ "exec" ]
 			},
+			"menu": [ "admin/nas/samba4" ],
 			"uci": [ "samba4" ]
 		},
 		"write": {
 			"file": {
 				"/etc/samba/smb.conf.template": [ "write" ]
 			},
+			"menu": [ "admin/nas/samba4" ],
 			"uci": [ "samba4" ]
 		}
 	}
