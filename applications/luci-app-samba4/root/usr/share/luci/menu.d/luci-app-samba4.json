@@ -1,13 +1,13 @@
 {
-	"admin/services/samba4": {
+	"admin/nas/samba4": {
 		"title": "Network Shares",
+		"order": 2,
 		"action": {
 			"type": "view",
 			"path": "samba4"
 		},
 		"depends": {
-			"acl": [ "luci-app-samba4" ],
-			"uci": { "samba4": true }
+			"acl": [ "luci-app-samba4" ]
 		}
 	}
 }
