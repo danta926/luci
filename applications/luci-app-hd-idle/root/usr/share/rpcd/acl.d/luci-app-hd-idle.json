@@ -5,9 +5,11 @@
 			"file": {
 				"/usr/bin/lsblk -n -J -do NAME,TRAN,ROTA,RM,VENDOR,MODEL": [ "exec" ]
 			},
+			"menu": [ "admin/nas", "admin/nas/hd_idle" ],
 			"uci": [ "hd-idle" ]
 		},
 		"write": {
+			"menu": [ "admin/nas/hd_idle" ],
 			"uci": [ "hd-idle" ]
 		}
 	}
